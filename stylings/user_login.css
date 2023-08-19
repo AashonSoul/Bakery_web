@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #8c90bf;
+}
+
+h1{
+    text-align: center;
+    padding: 1rem 0 1.5rem 0rem;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+#large_cont{
+    height: 88vh;
+}
+
+#container {
+    background-color: #b1b1b1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 88%;
+    margin: auto;
+    border-radius: 3rem;
+}
+
+div.img{
+    height: 79vh;
+    width: 23vw;
+}
+div.img img{
+    height: inherit;
+    margin-left: 2rem;
+}
+
+#line{
+    height: 85vh;
+    border: 1px solid black;
+    transform: rotate(20deg);
+    margin-left: 19rem;
+    background-color: #000000;
+}
+
+
+#login{
+    background-color:  #8c90bf;
+    height: 69vh;
+    width: 33vw;
+    margin-left: 13rem;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login_box{
+    height: inherit;
+    width: 33vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input{
+    padding: 1rem;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+.input input{
+    width: 12vw;
+    height: 2.5vh;
+    border-radius: 3rem;
+    border: 2px solid white;
+}
+
+#btn{
+    width: 7vw;
+    height: 5vh;
+    border: 2px solid grey;
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+    font-size: 1.3rem;
+}
+
+#btn:hover{
+    background-color: white;
+    color: black;
+}

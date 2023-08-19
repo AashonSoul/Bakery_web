@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Raleway:wght@100&family=Roboto+Mono:wght@100&display=swap');
+
+
+body{
+    overflow-x: hidden;
+}
+
+#intro_section{
+    height: 42vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    background: url("../images/bakefinal.png") no-repeat;
+    background-size: cover;
+}
+
+#icons{
+    height: 42vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+#icons_head h3{
+    font-family: 'Cedarville Cursive';
+}
+
+#icons_container{
+    display: flex;
+    align-items: center;
+}
+
+.icons{
+    margin: 0 3rem;
+}
+
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+
+.icons a img{
+    width: 90%;
+    margin: auto;
+}
+
+.icons a div{
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+}
+
+#icons_desc{
+    position: absolute;
+    top: -5rem;
+    left: 4rem;
+    width: 10vw;
+    border-radius: 3rem;
+    border-bottom-right-radius: 0;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+#icons_desc li{
+    list-style: none;
+}
+
+#quote{
+    background-color: #414141;
+    height: 34vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    flex-direction: column;
+    font-family: 'Raleway';
+}
+
+
+
+/* Utility classes */
+.d-none{
+    visibility: hidden;
+    opacity: 0;
+}
+.d-block{
+    display: block;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1468px) {
+    .icons {
+      margin: 0 2rem;
+    }
+    #intro_section{
+        font-size: 2.4rem;
+    }
+}
+@media only screen and (max-width: 1273px) {
+    .icons {
+      margin: 0 1rem;
+    }
+    #intro_section{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1081px) {
+    #quote{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 1049px) {
+    #icons_head h3{
+        margin-top: -4rem;
+    }
+}
+
+@media only screen and (max-width: 927px) {
+    #intro_section{
+        font-size: 1.6rem;
+        padding-left: 4rem;
+    }
+}
+
+@media only screen and (max-width: 697px) {
+    /* fix this */
+    #quote{
+        font-size: 1.5rem;
+    }
+}

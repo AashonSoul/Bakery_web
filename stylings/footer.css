@@ -1,0 +1,12 @@
+
+
+#footer{
+    height: 5vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ysabeau';
+    font-size: 1.3rem;
+}

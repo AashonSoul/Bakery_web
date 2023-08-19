@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Montserrat:ital,wght@1,100&display=swap');
+
+#big_div{
+    height: 149vh;
+    background-color: #c0ddff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#small_div{
+    height: 130vh;
+    width: 79vw;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #87beff;
+}
+
+#head_cont h2{
+    font-family: 'Kablammo';
+}
+
+h2{
+    display: inline-block;
+    margin: 5rem;
+    cursor: grab;
+    font-family: 'Montserrat';
+}
+
+#cakes_cont, #flavour_cont{
+    width: 64vw;
+    height: 97vh;
+    border-radius: 2rem;
+    text-align: center;
+    background: #c2defe;
+}
+
+/* SLIDER */
+.slider{
+    /* width: 100%; */
+    height: 56vh;
+    border: 2px solid black;
+    transition: all 0.15s ease;
+}
+
+input[type="radio"] {
+    transform: scale(1.5);
+    margin: 3rem 1rem;
+    cursor: grab;
+}
+
+#slider1 h3{
+    padding: 1rem;
+}
+
+.left_side_cakes .cakes{
+    border: 2px solid black;
+    display: inline-block;
+    width: 23%;
+}
+
+#slider1 .left_side_cakes img{
+    width: 12%;
+    height: 12%;
+}
+#slider1 .right_side_cakes
+
+
+
+/* utility classes */
+.underline{
+    text-decoration: underline 0.15em rgb(0, 0, 0);
+}
+
+.d-none{
+    display: none;
+}

@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+/* Kitchen */
+h1{
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 3rem;
+    font-family: 'Dosis';
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Dosis';
+    font-weight: bolder;
+}
+
+#kitchen{
+    background-color: lightgoldenrodyellow;
+    height: 54vh;
+}
+
+#kitchen_divs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+#left{
+    /* border: 2px solid blue; */
+    width: 34vw;
+    height: 32vh;
+    border-right: 2px dashed black;
+}
+#right{
+    /* border: 2px solid red; */
+    width: 34vw;
+    height: 32vh;
+    border-left: 2px dashed black;
+}
+
+#left, #right{
+    display: flex;
+    flex-direction: column;
+}
+
+#kitchen_divs h3{
+    text-align: center;
+    font-family: 'Josefin Sans';
+}
+
+#kitchen_divs p{
+    margin: 1rem;
+    font-family: 'Lucida Sans';
+}
+
+/* staff */
+
+/* Chefs */
+#staff{
+    width: 100%;
+    height: 127vh;
+    background: url("../images/team_bg.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#our_chef{
+    display: flex;
+    justify-content: center;
+}
+
+#head_chefs{
+    height: 34vh;
+    width: 45vw;
+}
+
+#assistant_chefs{
+    height: 34vh;
+    width: 45vw;
+}
+
+.chefs_name{
+    display: flex;
+    align-items: center;
+}
+
+.chefs_name img{
+    width: 4vw;
+    height: 7vh;
+    margin: 1rem;
+    margin-left: 21rem;
+}
+
+.chefs_name span{
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+}
+
+/* Other workers */
+
+#other_workers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#other_workers span{
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+}
+
+/* Delivery handlers */
+#delivering_handlers{
+    display: flex;
+    justify-content: center;
+}
+
+.persons{
+    display: flex;
+    align-items: center;
+}
+
+.persons img{
+    height: 7vh;
+    width: 3vw;
+    padding: 1rem;
+    padding-left: 19rem;
+}
+
+#left_persons , #right_persons{
+    /* border: 2px solid black; */
+    width: 41vw;
+    padding: 2rem;
+    font-family: 'Dosis';
+    font-weight: bolder;
+}
+
+
+/* Branches */
+#branches{
+    background-color: cyan;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#cards_cont{
+    display: flex;
+    height: 60vh;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 2rem;
+    width: 19vw;
+    height: 39vh;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* Utility classes */
+.font-1{
+    font-size: 1rem;
+}
+.font-2{
+    font-size: 2rem;
+}

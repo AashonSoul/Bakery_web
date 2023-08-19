@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto+Mono:wght@100&family=Ysabeau:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ysabeau';
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.logo_img img{
+    width: 2vw;
+    height: 3vh;
+    border-radius: 3px;
+    margin-right: 1rem;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    color: white;
+}
+
+nav li{
+    list-style-type: none;
+    padding: 1rem;
+    cursor: grab;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+/* class for a */
+.link{
+    text-decoration: none;
+    color: white;
+}
